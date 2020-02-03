@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">MyGame</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome</string>
+    <string name="custom">custom</string>
+    <string name="hello">hello</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="activity_2">Activity 2</string>
+    <string name="activity2">Activity2</string>
+    <string name="activity1">activity1</string>
+    <string name="activity_3">Activity3</string>
+    <string name="enter">Enter</string>
+    <string name="first_fragment">First Fragment</string>
+    <string name="second_fragment">Second Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="go">Go</string>
+    <string name="lorem_ipsum">Earlier on Thursday, a US official, citing an extensive review of satellite data, said Washington had concluded with a high degree of certainty that anti-aircraft missiles brought down the plane. The official said the Boeing 737-800 had been tracked by Iranian radar.
+
+Washington believed the plane was most likely brought down accidentally, two US officials said.
+
+The data showed the plane was airborne for two minutes after departing Tehran when the heat signatures of two surface-to-air missiles were detected, one of the officials said.
+
+That was quickly followed by an explosion in the vicinity of the plane, this official said. Heat signature data then showed it on fire as it went down.Iran denied that the airliner had been hit by a missile, government spokesman Ali Rabiei said in a statement.
+
+All these reports are a psychological warfare against Iran … all those countries whose citizens were aboard the plane can send representatives and we urge Boeing to send its representative to join the process of investigating the black box," he said.
+
+Iran\'s head of civil aviation denied reports that Iran was to blame as illogical rumours.
+
+Scientifically, it is impossible that a missile hit the Ukrainian plane, and such rumours are illogical, the semi-official ISNA News Agency quoted Ali Abedzadeh as saying.
+
+We are calling on the Canadian Prime Minister and any other government that has information about the crash to hand it over to the investigation committee in Iran, foreign ministry spokesman Abbas Mousavi was quoted as saying by state news agency IRNA.Speaking to reporters at the White House, US President Donald Trump said he had a terrible feeling about the downed airliner, but offered no details. He said he did not believe it was a mechanical issue.
+
+It's a tragic thing. But somebody could have made a mistake - on the other side, Trump said.
+
+British Prime Minister Boris Johnson said in a statement: There is now a body of information that the flight was shot down by an Iranian Surface to Air Missile. This may well have been unintentional.
+
+He reiterated the call for all sides urgently to de-escalate to reduce tensions in the region.
+
+The US Federal Aviation Administration had banned US carriers from operating in the airspace over Iraq, Iran, the Gulf of Oman and the waters between Iran and Saudi Arabia in the hours after Iran's attack on US-led forces in Iraq. Several other airlines also diverted flights.
+
+Boeing and the FAA declined to comment on the missile reports on Thursday, as did the Pentagon. Spokeswomen for Ukraine's president and prime minister did not immediately respond to a request for comment.</string>
+    <string name="screenslide">screenSlide</string>
+    <string name="title_activity_main7">Main7Activity</string>
+    <string-array name="stringlist">
+        <item>a1</item>
+        <item>a2</item>
+        <item>a3</item>
+        <item>a4</item>
+        <item>a5</item>
+        <item>a6</item>
+        <item>a7</item>
+        <item>a8</item>
+        <item>a9</item>
+        <item>b1</item>
+        <item>b2</item>
+    </string-array>
+
+    <string-array name="names">
+        <item>Anil</item>
+        <item>Ajay</item>
+        <item>Amit</item>
+        <item>Ashwini</item>
+        <item>George</item>
+        <item>Anna</item>
+        <item>Pooja</item>
+        <item>Amir</item>
+        <item>Ajit</item>
+        <item>William</item>
+        <item>Jane</item>
+        <item>John</item>
+        <item>Anikita</item>
+        <item>Rahul</item>
+    </string-array>
+
+    <string-array name="lastnames">
+        <item>Deshpande</item>
+        <item>Kolhar</item>
+        <item>Trivedi</item>
+        <item>Mudaliar</item>
+        <item>Patton</item>
+        <item>Atkins</item>
+        <item>Batra</item>
+        <item>Khan</item>
+        <item>Nair</item>
+        <item>Beck</item>
+        <item>Dakota</item>
+        <item>Ferrel</item>
+        <item>Nahar</item>
+        <item>Dev</item>
+
+    </string-array>
+
+    <string-array name="gender">
+        <item>male</item>
+        <item>male</item>
+        <item>male</item>
+        <item>female</item>
+        <item>male</item>
+        <item>female</item>
+        <item>female</item>
+        <item>male</item>
+        <item>male</item>
+        <item>male</item>
+        <item>female</item>
+        <item>male</item>
+        <item>female</item>
+        <item>male</item>
+    </string-array>
+
+    <string-array name="nationality">
+        <item>Indian</item>
+        <item>Indian</item>
+        <item>Indian</item>
+        <item>Indian</item>
+        <item>British</item>
+        <item>British</item>
+        <item>Indian</item>
+        <item>Indian</item>
+        <item>Indian</item>
+        <item>USA</item>
+        <item>Australian</item>
+        <item>USA</item>
+        <item>Indian</item>
+        <item>Indian</item>
+    </string-array>
+
+</resources>

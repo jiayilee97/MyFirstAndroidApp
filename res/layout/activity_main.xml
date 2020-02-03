@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/parentLayout">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="600dp"
+        android:text="Button2" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <ImageView
+        android:id="@+id/bird1"
+        android:layout_width="194dp"
+        android:layout_height="181dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        app:srcCompat="@drawable/bird" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="100dp"
+            android:layout_height="200dp">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:text="@string/welcome"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="600dp"
+        android:text="Button" />
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/bird"
+        android:id="@+id/box"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/orange_arrow"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:id="@+id/orange"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-200dp"
+        android:src="@drawable/circle"
+        android:id="@+id/circle"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/custom"
+        android:id="@+id/custom"
+        android:layout_marginTop="260dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="onTouchCustomBtn"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_marginTop="60dp"
+        android:id="@+id/custom_obj" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/wifi"/>
+
+    <ImageView
+        android:id="@+id/triangle"
+        android:layout_width="287dp"
+        android:layout_height="288dp"
+        android:onClick="animateTriangle"
+        android:src="@drawable/animatorvectordrawable"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/bird"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="400dp"
+        android:id="@+id/birdxml"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/bird"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="300dp"
+        android:id="@+id/move1bird"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_sim_card_black_24dp"
+        android:id="@+id/sim"
+        android:layout_gravity="center"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/star"
+        android:id="@+id/star"
+        android:layout_marginTop="400dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:textSize="40sp"
+        android:background="@android:color/darker_gray"
+        android:layout_gravity="bottom"
+        android:padding="10dp"
+        android:id="@+id/hello"/>
+    <ImageView
+        android:id="@+id/ivPosition"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/transition"
+        android:layout_gravity="center"
+        android:layout_marginLeft="300dp"
+        android:visibility="invisible"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/activity2"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="110dp"
+        android:id="@+id/activity2btn"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="activity7"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="210dp"
+        android:id="@+id/activity7btn"
+        android:onClick="onClick"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="activity5 (service)"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="305dp"
+        android:id="@+id/activity5btn"
+        android:onClick="onClick"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="start service"
+        android:id="@+id/start_service"
+        android:onClick="onClick"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="stop service"
+        android:id="@+id/stop_service"
+        android:onClick="onClick"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/start_service"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="bing service"
+        android:id="@+id/bind_service"
+        android:onClick="onClick"
+        android:layout_below="@id/stop_service"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="bing service"
+        android:id="@+id/unbind_service"
+        android:onClick="onClick"
+        android:layout_below="@id/bind_service"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
